@@ -61,7 +61,6 @@ namespace AutumnBox.Essentials
                 extensionTaskManager.Start(nameof(EAutumnBoxUpdateChecker));
                 Storage.SaveJsonObject("last_update_check_time", DateTime.Now);
             }
-            extensionTaskManager.Start(nameof(EAutumnBoxAdFetcher));
             extensionTaskManager.Start(nameof(EDonateCardRegister));
 
             var componentLoader = new ClassComponentsLoader("AutumnBox.Essentials", rlake, this.GetType().Assembly);

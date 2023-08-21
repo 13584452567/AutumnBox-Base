@@ -17,7 +17,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)EssentialsLibrarin.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Extensions\EAutumnBoxAdFetcher.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\EAutumnBoxExtensionStore.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\EAutumnBoxGuideViewer.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\EAutumnBoxRestarter.cs" />
